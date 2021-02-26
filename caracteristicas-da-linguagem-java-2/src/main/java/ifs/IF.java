@@ -1,7 +1,12 @@
 package ifs;
 
+/**
+ * Teste do If e If Else.
+ */
 public class IF {
-
+  /**
+   * Teste do If e If Else.
+   */
   public static void main(String[] args) {
 
     final var condicao = false;
@@ -12,9 +17,9 @@ public class IF {
       System.out.println("A condição é falsa");
     }
 
-    if (condicao)
+    if (condicao) {
       System.out.println("Uma única linha...");
-
+    }
     final var ternario = condicao ? "é verdadeira" : "é falsa";
 
     System.out.println(ternario);
